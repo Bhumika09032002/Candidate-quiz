@@ -1,0 +1,50 @@
+.instContainer{
+    background-color: rgb(239, 237, 237);
+    border-left: 5px solid blue;
+    width:80%;
+    margin: 5rem auto 0 auto;
+    padding: 2rem 4rem;
+
+    h1{
+        color:rgb(3, 3, 52);
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom:5rem;
+    }
+
+    li{
+        margin:1rem;
+    }
+    button{
+        padding: 10px;
+        width:100px;
+        border: none;
+        
+        margin-top: 20px;;
+        border-radius: 10px;
+        border-width: 1px;
+        transition: 0.3s linear all;
+        font-weight: bolder;
+    }
+    .right{
+       float:right;
+       background-color: rgb(55, 224, 55);
+
+    }
+    .left{
+        float:left;
+        background-color:rgb(238, 117, 117);
+
+    }
+    .left:hover{
+        background-color:rgb(220, 20, 20);
+    }
+    .right:hover{
+        background-color: rgb(20, 160, 20);
+    }
+    img{
+        height: 80%;
+        width:80%;
+        margin:15px;
+    }
+}

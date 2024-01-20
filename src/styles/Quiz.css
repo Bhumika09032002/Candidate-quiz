@@ -1,0 +1,71 @@
+.questions{
+    background-color: rgb(232, 232, 232);
+    border-left: 5px solid #0000ff;
+    width:80%;
+    margin: 5rem auto 0 auto;
+    padding: 2rem 4rem;
+
+    h3{
+        font-size: 1.2rem;
+        margin-bottom: 4rem;
+        line-height: 1.5;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .option-container{
+        display: inline-block;
+        width:50%;
+    }
+    .options{
+        background-color: rgb(81, 207, 249);
+        border-radius: 20px;
+        cursor: pointer;
+        margin:4rem auto;
+        padding:10px;
+        transition: 0.3s linear all;
+        text-align: center;
+        width:60%;
+    }
+    .options:hover{
+        background-color: #1da1f2;
+        
+    }
+    .button-container{
+        display:flex;
+        justify-content: flex-start;
+        margin: 2rem auto 2rem auto;
+        cursor:pointer;
+        padding:rem;
+        width: 80%;
+    }
+    .button-container button{
+        border:none;
+        color:white;
+        cursor:pointer;
+        /* font-family: 'Courier New', Courier, monospace; */
+        margin-right: 3rem;
+        padding: 5px;
+        width:80px;
+        height:30px;
+        border-radius: 5px;
+
+    }
+    .button-container button:first-child{
+        background-color: #1da1f2;
+        transition: 0.2s linear all;
+    }
+    .button-container button:first-child:hover{
+        background-color: blue;
+    }
+
+    .button-container button:last-child{
+        background-color: rgb(45, 179, 45);
+        transition: 0.2s linear all;
+        /* float:right; */
+    }
+    .button-container button:last-child:hover{
+        background-color:green;
+        
+    }
+
+}
